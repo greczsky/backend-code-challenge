@@ -1,4 +1,4 @@
-import { CustomBadRequestException } from 'commons-nestjs';
+import { CustomBadRequestException } from 'src/exceptions/custom-bad-request.exception';
 
 import type { ValidationError } from '@nestjs/common';
 import type { ErrorCode } from 'src/error/types/enums';

@@ -1,9 +1,9 @@
-import { OrderDirection } from 'commons-nestjs';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsEnum, IsInt, IsOptional, Max, Min } from 'class-validator';
 
 import { ExampleOrderColumn } from 'src/modules/data-repositories/types/enums';
+import { OrderDirection } from 'src/types/enums';
 
 export class GetAllExamplesRequestDto {
   @IsOptional()

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/require-await */
-import { LOGGER_365 } from 'logger-nestjs';
 import { ConfigService } from '@nestjs/config';
 import { Test } from '@nestjs/testing';
+import { LOGGER_365 } from 'logger-nestjs';
 
 import { ExampleAdapter } from 'src/adapters/example/example.adapter';
 import { ExamplesRepository } from 'src/modules/data-repositories/repositories/examples.repository';

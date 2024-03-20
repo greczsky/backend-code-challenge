@@ -1,10 +1,10 @@
-import { CustomNotFoundException } from 'commons-nestjs';
-import { Logger, LOGGER_365 } from 'logger-nestjs';
-import { Inject, Injectable } from '@nestjs/common';
+import { Inject, Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { LOGGER_365 } from 'src/modules/logger/types/constants';
 
 import { ExampleAdapter } from 'src/adapters/example/example.adapter';
 import { ErrorCode } from 'src/error/types/enums';
+import { CustomNotFoundException } from 'src/exceptions/custom-not-found.exception';
 import { ExamplesRepository } from 'src/modules/data-repositories/repositories/examples.repository';
 
 import type {

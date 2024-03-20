@@ -1,7 +1,7 @@
-import { makeInjectable } from 'commons-nestjs';
 import { Module } from '@nestjs/common';
 
 import { ExampleAdapter } from 'src/adapters/example/example.adapter';
+import { makeInjectable } from 'src/helpers/injection/injection.helper';
 
 import { ExamplesController } from './examples.controller';
 import { ExamplesService } from './services/examples/examples.service';

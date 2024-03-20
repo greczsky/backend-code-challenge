@@ -1,5 +1,5 @@
-import { refreshDb } from 'common';
 import { Test } from '@nestjs/testing';
+import { refreshDb } from 'src/modules/common/helpers/test/test.helper';
 import * as request from 'supertest';
 import { DataSource } from 'typeorm';
 
