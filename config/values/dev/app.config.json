@@ -1,0 +1,8 @@
+{
+  "NODE_ENV": "production",
+  "PORT": "3000",
+  "LOG_LEVEL": "debug",
+  "LOG_CONTEXT": "PokemonApp",
+  "TYPEORM_LOGGING": "false",
+  "TYPEORM_MIGRATIONS_RUN": "false"
+}

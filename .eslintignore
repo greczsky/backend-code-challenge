@@ -1,0 +1,4 @@
+/src/generated/*
+tmp
+dist
+node_modules

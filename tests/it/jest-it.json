@@ -1,0 +1,32 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": "../..",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/src/"
+  ],
+  "moduleNameMapper": {
+    "src/(.*)": "<rootDir>/src/$1",
+    "tests/(.*)": "<rootDir>/tests/$1",
+    "scripts/(.*)": "<rootDir>/scripts/$1"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "testEnvironment": "node",
+  "testRegex": ".it-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": [
+      "ts-jest",
+      {
+        "compiler": "ttypescript"
+      }
+    ]
+  },
+  "testTimeout": 50000
+}
